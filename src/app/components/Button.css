@@ -7,7 +7,7 @@
   margin: auto;
   font-size: 20px;
   text-transform: uppercase;
-  color: white;
-  border: 1px solid white;
+  color: var(--white);
+  border: 1px solid var(--white);
   background-color: transparent;
 }

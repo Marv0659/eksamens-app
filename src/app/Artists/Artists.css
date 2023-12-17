@@ -14,8 +14,8 @@ main {
 
 h3 {
   font-size: 2rem;
-  color: white;
-  border-bottom: solid white 2px;
+  color: var(--white);
+  border-bottom: solid var(--white) 2px;
   margin-bottom: 2rem;
   margin-top: 4rem;
 }

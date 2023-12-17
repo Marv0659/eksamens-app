@@ -1,7 +1,6 @@
 hr {
   size: 1;
-
-  color: white;
+  color: var(--white);
   margin-top: 10px;
   margin-left: 10%;
   margin-right: 10%;
@@ -18,14 +17,14 @@ hr {
   margin-top: 2.7rem;
 }
 h1 {
-  color: #ffffff;
+  color: var(--white);
   font-size: medium;
 }
 p {
-  color: white;
+  color: var(--white);
 }
 
 .footer {
   height: 17rem;
-  background-color: #ffffff00;
+  background-color: var(--invis);
 }

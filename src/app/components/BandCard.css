@@ -1,7 +1,7 @@
 article {
   display: grid;
   grid-template-columns: 1fr;
-  border: black 3px solid;
+  border: var(--black) 3px solid;
 }
 
 img,

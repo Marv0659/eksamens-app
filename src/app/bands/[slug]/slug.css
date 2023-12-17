@@ -16,22 +16,22 @@
 }
 
 .members {
-  color: white;
+  color: var(--white);
   font-size: 4rem;
   margin: 2rem;
 }
 .genre {
-  color: white;
+  color: var(--white);
   font-size: 1rem;
   margin: 1rem;
 }
 .bio {
-  color: white;
+  color: var(--white);
   font-size: 2rem;
   margin: 2rem 10rem;
 }
 .box5 {
-  border: 2px solid rgba(241, 63, 167, 0);
+  border: 2px solid var(--invis);
   height: 50rem;
 }
 
@@ -50,7 +50,7 @@
   margin-top: 15rem;
   font-size: 130px;
   text-transform: uppercase;
-  color: white;
+  color: var(--white);
 }
 
 .text {
@@ -61,7 +61,7 @@
   margin-top: 15rem;
   font-size: 40px;
   text-transform: uppercase;
-  color: white;
+  color: var(--white);
   width: 60%;
 }
 

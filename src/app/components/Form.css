@@ -3,11 +3,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--transbg);
   width: 50%;
   margin: 0 auto;
   padding-top: 2rem;
-  color: white;
+  color: var(--white);
   font-size: 20px;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .formGrid button {
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid var(--white);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +25,7 @@
   margin: 3rem;
   font-size: 20px;
   text-transform: uppercase;
-  color: white;
+  color: var(--white);
   background-color: transparent;
 }
 .formGrid button:hover {
@@ -46,13 +46,13 @@
   margin: auto;
   font-size: 15px;
   text-transform: uppercase;
-  color: white;
+  color: var(--white);
   border: none;
-  border: 1px solid white;
+  border: 1px solid var(--white);
   background-color: transparent;
 }
 input:invalid {
-  border: 1px solid red;
+  border: 1px solid var(--red);
 }
 
 @media only screen and (max-width: 800px) {

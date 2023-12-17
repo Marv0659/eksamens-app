@@ -4,10 +4,9 @@
   justify-content: center;
   width: 100%;
   margin-top: 15rem;
-
   font-size: 130px;
   text-transform: uppercase;
-  color: white;
+  color: var(--white);
 }
 
 .text {
@@ -18,7 +17,7 @@
   margin-top: 15rem;
   font-size: 40px;
   text-transform: uppercase;
-  color: white;
+  color: var(--white);
   width: 60%;
 }
 .arrowDown {

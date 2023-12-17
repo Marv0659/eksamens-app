@@ -9,12 +9,12 @@
   margin-bottom: 5rem;
 }
 .card1 {
-  border: 2px rgb(255, 255, 255) solid;
+  border: 2px var(--white) solid;
   width: 70%;
   height: 100%;
 }
 .card2 {
-  border: 2px rgb(255, 255, 255) solid;
+  border: 2px var(--white) solid;
   width: 70%;
   height: 100%;
 }

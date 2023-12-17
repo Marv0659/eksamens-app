@@ -1,8 +1,18 @@
+:root {
+  --bgcol: #bdb39c;
+  --navheadcol: rgba(19, 22, 26, 0);
+  --navhover: rgba(0, 0, 0, 0.5);
+  --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
+  --invis: rgba(255, 255, 255, 0);
+  --transbg: rgba(0, 0, 0, 0.5);
+  --orange: tomato;
+  --darkgray: #232323;
+  --red: red;
+  --lightgray: rgba(255, 255, 255, 0.5);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
-}
-
-main {
-  gradient: linear-gradient(180deg, #8bb0e8 0%, #deb468 100%);
 }

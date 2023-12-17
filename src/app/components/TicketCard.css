@@ -1,5 +1,5 @@
 .ticketCard {
-  color: white;
+  color: var(--white);
   text-align: center;
   margin-top: 2rem;
   text-transform: uppercase;
@@ -24,8 +24,8 @@
 
   font-size: 20px;
   text-transform: uppercase;
-  color: white;
-  border: 1px solid white;
+  color: var(--white);
+  border: 1px solid var(--white);
   background-color: transparent;
 }
 .basketbtn:hover {

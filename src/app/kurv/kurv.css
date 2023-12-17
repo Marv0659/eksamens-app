@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--white);
+  background-color: var(--transbg);
   margin: 0 auto;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -18,7 +18,7 @@
 }
 
 .kurvContainer h2 {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--white);
   font-size: 30px;
   text-transform: uppercase;
 }
@@ -31,11 +31,11 @@
   font-size: 50px;
   text-transform: uppercase;
   text-align: center;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--white);
   margin-top: 2rem;
 }
 .kurvContainer button {
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid var(--white);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,6 +44,6 @@
   margin: 3rem;
   font-size: 20px;
   text-transform: uppercase;
-  color: white;
+  color: var(--white);
   background-color: transparent;
 }

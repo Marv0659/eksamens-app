@@ -22,12 +22,12 @@ body {
   background-size: cover;
   height: 100vh;
   background-position: center center;
-  background-color: #bdb39c;
+  background-color: var(--bgcol);
 }
 
 /* Normale styles */
 .header {
-  background-color: rgba(19, 22, 26, 0);
+  background-color: var(--navheadcol);
 }
 
 .headercontent {
@@ -56,7 +56,7 @@ body {
   transition: color 0.4s;
 }
 .navlink:hover {
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--navhover);
 }
 
 @media (max-width: 650px) {

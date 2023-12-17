@@ -2,11 +2,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid var(--white);
   width: 60%;
   gap: 0.5rem;
-  color: white;
-
+  color: var(--white);
   font-size: 20px;
 }
 .areaInput {
@@ -19,7 +18,7 @@
 }
 
 input[type="radio"] {
-  border: 1px solid #fff;
+  border: 1px solid var(--white);
   padding: 0.5em;
   appearance: none;
 }
@@ -42,8 +41,8 @@ input[type="radio"]:focus {
   margin-top: 5%;
   font-size: 20px;
   text-transform: uppercase;
-  color: white;
-  border: 1px solid white;
+  color: var(--white);
+  border: 1px solid var(--white);
   background-color: transparent;
 }
 .amount input {
@@ -55,9 +54,9 @@ input[type="radio"]:focus {
   margin: auto;
   font-size: 20px;
   text-transform: uppercase;
-  color: white;
+  color: var(--white);
   border: none;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--white);
   background-color: transparent;
 }
 .amount button {
@@ -69,8 +68,8 @@ input[type="radio"]:focus {
   margin: auto;
   font-size: 20px;
   text-transform: uppercase;
-  color: white;
-  border: 1px solid white;
+  color: var(--white);
+  border: 1px solid var(--white);
   background-color: transparent;
 }
 .amount button:hover {
@@ -88,7 +87,7 @@ input[type="radio"]:focus {
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items: center;
-  color: white;
+  color: var(--white);
   text-align: center;
   font-size: 25px;
   margin-top: 2rem;
@@ -104,8 +103,8 @@ input[type="radio"]:focus {
   margin-top: 1rem;
   font-size: 15px;
   text-transform: uppercase;
-  color: white;
-  border: 1px solid white;
+  color: var(--white);
+  border: 1px solid var(--white);
   background-color: transparent;
 }
 .tentgrid button:hover {
@@ -114,6 +113,6 @@ input[type="radio"]:focus {
 
 .tent1,
 .tent2 {
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid var(--white);
   padding: 2rem;
 }

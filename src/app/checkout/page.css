@@ -5,15 +5,10 @@
   gap: 2rem;
   padding: 8rem;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--transbg);
   width: 50%;
   margin: 0 auto;
   margin-top: 4rem;
-}
-
-.written {
-  font-family: "FiveSerifLightItalic";
-  display: inline;
 }
 
 p,
@@ -21,5 +16,5 @@ h2,
 h3,
 h4 {
   text-transform: uppercase;
-  color: white;
+  color: var(--white);
 }
